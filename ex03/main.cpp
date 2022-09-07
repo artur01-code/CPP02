@@ -24,13 +24,13 @@ int main()
 	}
 	{
 		std::cout << "******************Test 2: outside********************" << std::endl;
-		Point a(1, 0);
+		Point a(0, 0);
 		std::cout << "a" << a;
-		Point b(5, 0);
+		Point b(6, 0);
 		std::cout << "b" << b;
-		Point c(5, 5);
+		Point c(7, 5);
 		std::cout << "c" << c;
-		Point d(9, 7);
+		Point d(10, 7);
 		std::cout << "d" << d;
 
 		if(bsp(a, b, c, d) == true)
