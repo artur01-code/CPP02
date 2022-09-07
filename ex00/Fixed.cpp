@@ -8,7 +8,6 @@ Fixed::Fixed()
 
 Fixed::Fixed(const Fixed &copy)
 {
-	// *this = copy;
 	this->val_ = copy.val_;
 	std::cout << "Copy Constructor called" << std::endl;
 };
