@@ -8,13 +8,13 @@ int main()
 {
 	{
 		std::cout << "******************Test 1: inside********************" << std::endl;
-		Point a(0, 0);
+		Point a(1, 0);
 		std::cout << "a" << a;
 		Point b(5, 0);
 		std::cout << "b" << b;
 		Point c(5, 5);
 		std::cout << "c" << c;
-		Point d(0, 1);
+		Point d(2, 1);
 		std::cout << "d" << d;
 
 		if(bsp(a, b, c, d) == true)
@@ -24,7 +24,7 @@ int main()
 	}
 	{
 		std::cout << "******************Test 2: outside********************" << std::endl;
-		Point a(0, 0);
+		Point a(1, 0);
 		std::cout << "a" << a;
 		Point b(5, 0);
 		std::cout << "b" << b;

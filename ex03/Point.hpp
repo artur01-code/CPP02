@@ -6,11 +6,11 @@
 class Point {
 	public:
 	//default constructor initializes with 0
-	Point() : x(0), y(0) {}
+	Point();
 	//constructor that takes two const and then initializes
-	Point(const float new_x, const float new_y) : x(new_x), y(new_y) {}
+	Point(const float new_x, const float new_y);
 	//copy constructor
-	Point(const Point &copy) : x(copy.getX()), y(copy.getY()) {};
+	Point(const Point &copy);
 	//copy assignment operator overload
 	Point& operator=(const Point &copy);
 	//destructor
