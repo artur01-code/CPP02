@@ -150,7 +150,7 @@ Fixed Fixed::operator/(const Fixed &obj)
 };
 
 //increment and decrement
-//preincrement
+//postincrement
 Fixed& Fixed::operator++(void)
 {
 	setRawBits(getRawBits() + 1);
@@ -163,7 +163,7 @@ Fixed& Fixed::operator--(void)
 	return (*this);
 };
 
-//postincrement
+//preincrement
 Fixed Fixed::operator++(int)
 {
 	Fixed clone;
